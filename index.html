@@ -1,96 +1,61 @@
 <html>
     <head>
-        <title>Nettly_</title>
+        <title>Nettlos_</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="A Python developer and computer science teenager">
-        <meta name="og:description" content="A Python developer and computer science teenager">
-        <meta name="og:title" content="Nettly_">
+        <meta name="description" content="An OS made by Nettly_">
+        <meta name="og:description" content="An OS made by Nettly_">
+        <meta name="og:title" content="Nettlos_">
         <link rel="og:icon" href="https://github.com/SafyreLyons/nettly_/blob/master/NettlyIco2.png?raw=true">
         <meta name="theme-color" content="#b4195a">
         <link rel="icon" href="https://github.com/SafyreLyons/nettly_/blob/master/NettlyIco2.png?raw=true">
         
         <script src="https://kit.fontawesome.com/a0ced86122.js"></script>
+        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
     </head>
     <body>
         <div id="root">
-            <div id="nav-over">
-                <div id="nav-under">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/SafyreLyons" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                        </li>
-                        <li>
-                            <a href="https://twitch.com/nettly_" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
-                        </li>
-                        <li>
-                            <a href="mailto:nettly@nettly.me?subject=From a User" target="_blank"><i class="fas fa-envelope-open"></i> Email Me</a>
-                        </li>
-                    </ul>
-                </div>
+            <div id="reg">
+                <span class="h1">Nettlos_</span><br>
+               <span class="txt">Nettlos_ is a bunch of operating systems based on Ubuntu (Some in the future might be Arch based) and all made by <a href="https://nettly.me" target="_blank">a stupid teenage developer by the name of Nettly_.</a> The goal of Nettlos_ is to simply keep Nettly_ busy when she has nothing to do. Nettlos_ is made with Ubuntu 19.04 and basically removes the original GUI and adds new ones. The first ever launch was a beta version on September 18th, 2019 with LXQt as the first ever DE to come with Nettlos_... what an honor I guess. This project is not really made to share just being shared so Nettly_ has something public.</span>
             </div>
-            <div id="content-over">
-                <div id="content-under">
-                    <h2>Who is Nettly_?</h2>
-                    <p><span style="margin-left: 5em;"></span>Safyre Lyons, also known as Nettly_, is a computer science nerd working on many new types of technology as to help grow the world in technology. She has made many things but is still currently learning. She likes to meme a lot as well. Nettly_ is 16 years old, lives with human beings of her bloodline, stays healthy, eats food sometimes, bit sarcastic, and only has a website to have fun.</p><br>
-                    <p id="center">Current projects: Nettlos_, Code Penguin</p>
-                    <img src="https://github.com/SafyreLyons/nettly_/blob/master/NettlyIco2.png?raw=true" alt="Something broke, help">
-                </div>
+            <div id="ex">
+                <table>
+                    <tr>
+                        <th>Name</th><th>Version</th><th>Based on</th><th>Release Date</th><th>Download</th>
+                    </tr>
+                    <tr>
+                        <td>Nettlos_LXQt</td><td>BETA-1</td><td>Ubuntu Desktop 19.04</td><td>September 18th, 2019</td><td><a href="" target="_blank">Download</a></td>
+                    </tr>
+                </table>
             </div>
         </div>
+        
     </body>
 </html>
 
 <style>
-#root{
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: absolute;
-}
-#nav-under li{
-    display: inline-block;
-}
-#nav-under a{
-    background-color: maroon;
-    padding: 20px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    display: block;
-}
-#nav-under a:hover{
-    background-color: #b51047;
-}
-#nav-over{
-    background-color: #072c52;
-    padding: 5px;
-}
-img {
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-p{
-    font-size: 20px;
-}
-#center{
-    text-align: center;
-}
-
-@media only screen and (max-width: 600px) {
-    #nav-under a{
-        background-color: maroon;
-        padding: 10px;
-        color: white;
+    th,td{
+        padding: 7px;
+        border: 3px solid black;
+    }
+    table{
+        text-align: center;
+        border-collapse: collapse;
+        margin: 10px;
+    }
+    tr{
+        margin: 0px; 
+    }
+    th,.h1{
+        font-size: 30px;
         font-weight: bold;
-        text-decoration: none;
-        display: block;
     }
-    #nav-under li{
-        display: block;
-        padding: 5px;
+    td,.txt{
+        font-size: 20px;
     }
-}
+    #root{
+        font-family: Arial, Helvetica, sans-serif;
+    }
 </style>
