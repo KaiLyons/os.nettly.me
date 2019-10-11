@@ -1,70 +1,196 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Nettlos_</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="An OS made by Nettly_">
-        <meta name="og:description" content="An OS made by Nettly_">
-        <meta name="og:title" content="Nettlos_">
-        <link rel="og:icon" href="https://github.com/SafyreLyons/nettly_/blob/master/NettlyIco2.png?raw=true">
-        <meta name="theme-color" content="#b4195a">
-        <link rel="icon" href="https://github.com/SafyreLyons/nettly_/blob/master/NettlyIco2.png?raw=true">
-        
-        <script src="https://kit.fontawesome.com/a0ced86122.js"></script>
-        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
-        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
-        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
-    </head>
-    <body>
-        <div id="root">
-            <div id="reg">
-                <span class="h1">Nettlos_</span><br>
-               <span class="txt">Nettlos_ is a bunch of operating systems based on Ubuntu (Some in the future might be Arch based) and all made by <a href="https://nettly.me" target="_blank">a stupid teenage developer by the name of Nettly_.</a> The goal of Nettlos_ is to simply keep Nettly_ busy when she has nothing to do. Nettlos_ is made with Ubuntu 19.04 and basically removes the original GUI and adds new ones. The first ever launch was a beta version on September 18th, 2019 with LXQt as the first ever DE to come with Nettlos_... what an honor I guess. This project is not really made to share just being shared so Nettly_ has something public.</span>
-            </div>
-            <div id="ex">
-                <table>
-                    <tr>
-                        <th>Name</th><th>Version</th><th>Based on</th><th>Release Date</th><th>Download</th><th>Status</th>
-                    </tr>
-                    <tr>
-                        <td>Nettlos_Budgie</td><td>BETA-1</td><td>Ubuntu Desktop 19.04</td><td>September 21st, 2019</td><td><a href="https://osdn.net/dl/nettlos-lxqt-ubuntubase/live-cd.iso" target="_blank">Download</a></td><td><span class="dep">DEPRECATED</span>
-                    </tr>
-                    <tr>
-                        <td>Nettlos_Budgie</td><td>Beta-2</td><td>IN DISCUSSION</td><td>UNKNOWN</td><td>No Downloads Available</td><td><span class="act">In Development</span></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        
-    </body>
+  <head>
+    <title>Nettlos_</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An OS family made by Nettly_" />
+    <meta name="og:description" content="An OS family made by Nettly_" />
+    <meta name="og:title" content="Nettlos_" />
+    <link
+      rel="og:icon"
+      href="https://github.com/SafyreLyons/nettly_/blob/master/NettlyIco2.png?raw=true"
+    />
+    <meta name="theme-color" content="#b4195a" />
+    <link
+      rel="icon"
+      href="https://github.com/SafyreLyons/nettly_/blob/master/NettlyIco2.png?raw=true"
+    />
+
+    <link rel="stylesheet" href="nettlos.css" />
+    <!-- Hey Safyre! I've added an exterior stylesheet in the ZIP that I sent you. -->
+
+    <script src="https://kit.fontawesome.com/a0ced86122.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css"
+      media="all"
+    />
+  </head>
+  <body>
+    <!-- I've added an <img> tag, as well as a "download" class to your <a> -->
+    <a href="http://nettly.me"
+      ><img
+        class="icon"
+        src="https://github.com/SafyreLyons/nettly_/blob/master/NettlyIco2.png?raw=true"
+        width="30"
+        height="30"
+        alt="Nettly_"
+    /></a>
+    <div id="root">
+      <div id="reg">
+        <span class="h1">Nettlos_</span><br /><br />
+        <span class="txt"
+          >Nettlos_ is a bunch of operating systems based on Ubuntu (Some in the
+          future might be Arch based) and all made by
+          <a href="https://nettly.me" target="_blank"
+            >a stupid teenage developer by the name of Nettly_.</a
+          ><br />
+          The goal of Nettlos_ is to simply keep Nettly_ busy when she has
+          nothing to do.<br />
+          Nettlos_ is made with Ubuntu 19.04 and basically removes the original
+          GUI and adds new ones. The first ever launch was a beta version on
+          September 18th, 2019 with LXQt as the first ever DE to come with
+          Nettlos_... what an honor I guess. <br />This project is not really
+          made to share just being shared so Nettly_ has something public.</span
+        >
+      </div>
+      <div id="ex">
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Version</th>
+            <th>Based on</th>
+            <th>Release Date</th>
+            <th>Download</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>Nettlos_Budgie</td>
+            <td>BETA-1</td>
+            <td>Ubuntu Desktop 19.04</td>
+            <td>September 21st, 2019</td>
+            <td>
+              <a
+                class="download"
+                href="https://osdn.net/dl/nettlos-lxqt-ubuntubase/live-cd.iso"
+                target="_blank"
+                >Download</a
+              >
+            </td>
+            <td><span class="dep">DEPRECATED</span></td>
+          </tr>
+          <tr>
+            <td>Nettlos_Budgie</td>
+            <td>Beta-2</td>
+            <td>IN DISCUSSION</td>
+            <td>UNKNOWN</td>
+            <td>No Downloads Available</td>
+            <td><span class="act">In Development</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- Added footer -->
+    <hr>
+    <footer>Made with &lt;3</footer>
+  </body>
 </html>
 
 <style>
-    th,td{
-        padding: 7px;
-        border: 3px solid black;
-    }
-    table{
-        text-align: center;
-        border-collapse: collapse;
-        margin: 10px;
-    }
-    tr{
-        margin: 0px; 
-    }
-    th,.h1{
-        font-size: 30px;
-        font-weight: bold;
-    }
-    td,.txt{
-        font-size: 20px;
-    }
-    .dep{
-        color: red;
-    }
-    .act{
-        color: green;
-    }
-    #root{
-        font-family: Arial, Helvetica, sans-serif;
-    }
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono&display=swap');
+
+th,td {
+  padding: 7px;
+  border: 1px solid grey;
+}
+
+th{
+  background-color:#300a25;
+  color:white;
+  padding:15px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-family: 'Ubuntu Mono', monospace;
+  margin-top:3%;
+}
+
+tr {
+  margin: 0px;
+}
+
+tr:nth-child(even){
+  background: #e9633a;
+}
+tr:nth-child(odd){
+  background: #0074b3;
+}
+
+th,.h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.h1{
+  font-size:45px;
+}
+
+td,.txt {
+  font-size: 20px;
+}
+
+.dep {
+  color: red;
+  font-weight:bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.act {
+  color: #00ff00;
+}
+
+#root,footer {
+  font-family: 'Ubuntu', sans-serif;
+  margin:5%;
+  color:#300a25;
+}
+
+a.download{
+  font-weight:bold;
+  padding:10px;
+  padding-left:15px;
+  padding-right:15px;
+  background-color:#fff;
+  border-top-left-radius:20px;
+  border-bottom-right-radius:20px;
+  color:#e9633a;
+}
+
+img.icon{
+  position:fixed;
+  right:15px;
+  top:15px;
+}
+
+hr{
+  border: 1px solid #300a25;
+}
+
+footer{
+  text-align:center;
+}
 </style>
